@@ -81,5 +81,6 @@ The frontend will typically run on [http://localhost:3000](http://localhost:3000
 - Use the provided API endpoints for integration (see `backend/routes/` for REST API route definitions).
 
 ## Contact
-Jayanth Devaraj Gowda 
-jayanthdevarajgowda@gmail.com
+- Jayanth Devaraj Gowda 
+- jayanthdevarajgowda@gmail.com
+- 7411257611
