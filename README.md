@@ -29,8 +29,6 @@ Authenticator-App-using-Flask--RestAPI--Reactjs/
       pages/         # React page components
       api/           # API call utilities
       ...
-  DATABASE_DOCUMENTATION.md # Database schema and docs
-  test_frontend_connection.html # Frontend-backend connection test
 ```
 
 ## Getting Started
