@@ -80,15 +80,6 @@ The frontend will typically run on [http://localhost:3000](http://localhost:3000
 - The **frontend communicates with the backend via REST API endpoints** for all authentication, user, and database operations.
 - Use the provided API endpoints for integration (see `backend/routes/` for REST API route definitions).
 
-## Contribution Guidelines
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
-For questions or support, please contact the project maintainer. 
+Jayanth Devaraj Gowda 
+jayanthdevarajgowda@gmail.com
