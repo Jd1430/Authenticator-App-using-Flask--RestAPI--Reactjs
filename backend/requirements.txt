@@ -5,3 +5,4 @@ Flask-CORS
 PyJWT
 bcrypt
 python-dotenv
+gunicorn
