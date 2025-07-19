@@ -80,6 +80,36 @@ The frontend will typically run on [http://localhost:3000](http://localhost:3000
 - The **frontend communicates with the backend via REST API endpoints** for all authentication, user, and database operations.
 - Use the provided API endpoints for integration (see `backend/routes/` for REST API route definitions).
 
+## Snapshots
+**1.Home Page** 
+<img width="1887" height="911" alt="Screenshot 2025-07-19 142404" src="https://github.com/user-attachments/assets/e0fb7e9e-dc1b-4c48-97da-36bfda85289e" />
+**2.Register Page**
+<img width="1889" height="912" alt="Screenshot 2025-07-19 142618" src="https://github.com/user-attachments/assets/490a0851-66c0-45e1-92de-0b1f2665fb9f" />
+**3.Login Page**
+<img width="1890" height="910" alt="Screenshot 2025-07-19 142655" src="https://github.com/user-attachments/assets/ea293d91-3483-47ac-99a8-1e209724ba75" />
+**4.My Profile Page**
+<img width="1881" height="904" alt="Screenshot 2025-07-19 142712" src="https://github.com/user-attachments/assets/91cd4030-b2b8-4325-a6e6-f7b0f5316a83" />
+**5.Change Password Page** 
+<img width="1879" height="906" alt="Screenshot 2025-07-19 142739" src="https://github.com/user-attachments/assets/5e669ccf-0279-4da6-a4b3-2032bbc062ad" />
+**6.Forget Password Page** 
+<img width="1882" height="911" alt="Screenshot 2025-07-19 142809" src="https://github.com/user-attachments/assets/680f8dc7-743d-4a44-81a9-f82c80b1a0c2" />
+**7.Reset Password Page** 
+<img width="1894" height="914" alt="Screenshot 2025-07-19 142849" src="https://github.com/user-attachments/assets/247b1f4d-36f8-4811-b699-7a737c914b0c" />
+**8.Database Dashboard Page**
+<img width="1889" height="907" alt="Screenshot 2025-07-19 142931" src="https://github.com/user-attachments/assets/1300b544-25eb-4c01-b167-eda394e1e20d" />
+<img width="1874" height="908" alt="Screenshot 2025-07-19 142953" src="https://github.com/user-attachments/assets/24345b96-9bc1-446a-a8b3-1eb148fa0840" />
+
+
+
+
+
+
+
+
+
+
+
+
 ## Contact
 - Jayanth Devaraj Gowda 
 - jayanthdevarajgowda@gmail.com
