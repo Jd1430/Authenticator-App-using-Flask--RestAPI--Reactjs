@@ -16,7 +16,7 @@ A full-stack web application with authentication, user management, and database 
 
 ## Folder Structure
 ```
-Zysk Technologies/
+Authenticator-App-using-Flask--RestAPI--Reactjs/
   backend/           # Flask backend API and utilities
     app.py           # Main Flask app
     auth.py          # Authentication logic
