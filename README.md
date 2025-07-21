@@ -11,7 +11,7 @@ A full-stack web application with authentication, user management, and database 
 - **RESTful API** for frontend-backend communication
 
 ## Tech Stack
-- **Backend:** Python, Flask, SQLite — exposes a **RESTful API** for authentication, user management, and database operations
+- **Backend:** Python, Flask, SQLite exposes a **RESTful API** for authentication, user management, and database operations
 - **Frontend:** React.js, JavaScript
 
 ## Folder Structure
