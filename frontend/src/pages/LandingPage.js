@@ -98,11 +98,11 @@ const LandingPage = () => {
           listStyle: 'none',
           padding: 0
         }}>
-          <li style={{ marginBottom: '8px' }}>✅ Secure user registration</li>
-          <li style={{ marginBottom: '8px' }}>✅ User authentication</li>
-          <li style={{ marginBottom: '8px' }}>✅ Password change functionality</li>
-          <li style={{ marginBottom: '8px' }}>✅ Password recovery via email</li>
-          <li style={{ marginBottom: '8px' }}>✅ User profile management</li>
+          <li style={{ marginBottom: '8px' }}> Secure user registration</li>
+          <li style={{ marginBottom: '8px' }}> User authentication</li>
+          <li style={{ marginBottom: '8px' }}> Password change functionality</li>
+          <li style={{ marginBottom: '8px' }}> Password recovery via email</li>
+          <li style={{ marginBottom: '8px' }}> User profile management</li>
         </ul>
       </div>
     </div>
