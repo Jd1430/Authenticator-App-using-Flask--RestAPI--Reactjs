@@ -134,12 +134,6 @@ const DatabasePage = () => {
               Overview
             </button>
             <button 
-              className={`tab ${activeTab === 'schema' ? 'active' : ''}`}
-              onClick={() => setActiveTab('schema')}
-            >
-              Schema
-            </button>
-            <button 
               className={`tab ${activeTab === 'data' ? 'active' : ''}`}
               onClick={() => setActiveTab('data')}
             >
@@ -174,45 +168,6 @@ const DatabasePage = () => {
                       </div>
                     </div>
                   ))}
-                </div>
-              </div>
-            )}
-
-            {activeTab === 'schema' && databaseInfo.schema && databaseInfo.schema.tables && (
-              <div className="schema-content">
-                <div className="table-selector">
-                  <select value={selectedTable} onChange={(e) => setSelectedTable(e.target.value)}>
-                    <option value="user">User Table</option>
-                    <option value="otp_token">OTP Token Table</option>
-                  </select>
-                </div>
-                <div className="schema-table">
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Column Name</th>
-                        <th>Type</th>
-                        <th>Primary Key</th>
-                        <th>Nullable</th>
-                        <th>Unique</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {databaseInfo.schema.tables[selectedTable]?.columns?.map((column, index) => (
-                        <tr key={index}>
-                          <td>{column.name}</td>
-                          <td>
-                            <span className="type-badge" style={{backgroundColor: getColumnTypeColor(column.type)}}>
-                              {column.type}
-                            </span>
-                          </td>
-                          <td>{column.primary_key ? '✓' : '✗'}</td>
-                          <td>{column.nullable ? '✓' : '✗'}</td>
-                          <td>{column.unique ? '✓' : '✗'}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
                 </div>
               </div>
             )}
